@@ -20,6 +20,14 @@ string Person::getLastName()
 {
   return lastName;
 }
+void Person::setEmployeeId(int id)
+{
+  employeeID = id;
+}
+int Person::getEmployeeId()
+{
+  return employeeID;
+}
 void Person::setCompanyName(string coName)
 {
   companyName = coName;
